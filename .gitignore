@@ -1,0 +1,49 @@
+# === Python ===
+__pycache__/
+*.py[cod]
+*.egg
+*.egg-info/
+dist/
+build/
+.env
+.venv/
+venv/
+ENV/
+env/
+
+# === Jupyter ===
+.ipynb_checkpoints/
+*.ipynb~
+
+# === VS Code ===
+.vscode/
+*.code-workspace
+
+# === Logs, Outputs, Caches ===
+*.log
+*.out
+*.tmp
+.DS_Store
+*.swp
+
+# === Audio & Model Artifacts ===
+data/raw/
+data/interim/
+data/processed/metadata.csv
+models/
+checkpoints/
+runs/                      # e.g., for TensorBoard
+*.h5
+*.pt
+*.pkl
+
+# === Kaggle ===
+kaggle.json
+
+# === Reports / Plots ===
+reports/figures/*.png
+reports/figures/*.svg
+
+# === OS Files ===
+Thumbs.db
+desktop.ini
