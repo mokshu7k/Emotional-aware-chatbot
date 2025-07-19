@@ -28,8 +28,8 @@ env/
 
 # === Audio & Model Artifacts ===
 data/raw/
+data/processed/
 data/interim/
-data/processed/metadata.csv
 models/
 checkpoints/
 runs/                      # e.g., for TensorBoard
